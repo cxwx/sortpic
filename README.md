@@ -4,50 +4,115 @@
 
 ## 📚 基础排序算法
 
-### 插入排序 (Insertion Sort)
+<details>
+<summary>📊 插入排序 (Insertion Sort)</summary>
+
 ![插入排序](Insertion_sort_animation.gif)
 
-### 选择排序 (Selection Sort)
+**特点**：稳定算法，对小规模或几乎有序的数据效率高
+</details>
+
+<details>
+<summary>📊 选择排序 (Selection Sort)</summary>
+
 ![选择排序](Selection_sort_animation.gif)
+
+**特点**：简单直观，交换次数最少，但效率较低
+</details>
 
 ## 🚀 高级排序算法
 
-### 快速排序 (Quick Sort)
+<details>
+<summary>⚡ 快速排序 (Quick Sort)</summary>
+
 ![快速排序](Sorting_quicksort_anim.gif)
 
-### 堆排序 (Heap Sort)
+**特点**：分治算法，平均性能最佳，但不稳定
+</details>
+
+<details>
+<summary>⚡ 堆排序 (Heap Sort)</summary>
+
 ![堆排序](Sorting_heapsort_anim.gif)
 
-### 希尔排序 (Shell Sort)
+**特点**：原地排序，保证最坏情况性能
+</details>
+
+<details>
+<summary>⚡ 希尔排序 (Shell Sort)</summary>
+
 ![希尔排序](Sorting_shellsort_anim.gif)
 
-### 平滑排序 (Smooth Sort)
+**特点**：改进的插入排序，性能优于简单插入排序
+</details>
+
+<details>
+<summary>⚡ 平滑排序 (Smooth Sort)</summary>
+
 ![平滑排序](Smoothsort.gif)
+
+**特点**：堆排序变种，对几乎有序数据表现优秀
+</details>
 
 ## 🎨 特殊排序算法
 
-### 梳排序 (Comb Sort)
+<details>
+<summary>🔄 梳排序 (Comb Sort)</summary>
+
 ![梳排序](Comb_sort_demo.gif)
 
-### 奇偶排序 (Odd-Even Sort)
+**特点**：改进的冒泡排序，消除小尾部的效率问题
+</details>
+
+<details>
+<summary>🔄 奇偶排序 (Odd-Even Sort)</summary>
+
 ![奇偶排序](Odd_even_sort_animation.gif)
 
-### 地精排序 (Gnome Sort)
+**特点**：并行排序算法，适合多处理器环境
+</details>
+
+<details>
+<summary>🔄 地精排序 (Gnome Sort)</summary>
+
 ![地精排序](Sorting_gnomesort_anim.gif)
 
-### 鸡尾酒排序 (Shaker Sort)
+**特点**：类似插入排序，算法简单但效率较低
+</details>
+
+<details>
+<summary>🔄 鸡尾酒排序 (Shaker Sort)</summary>
+
 ![鸡尾酒排序](Sorting_shaker_sort_anim.gif)
 
-### 斯图基排序 (Stooge Sort)
+**特点**：双向冒泡排序，某些情况下效率更高
+</details>
+
+<details>
+<summary>🔄 斯图基排序 (Stooge Sort)</summary>
+
 ![斯图基排序](Sorting_stoogesort_anim.gif)
+
+**特点**：递归排序算法，主要用于教学演示
+</details>
 
 ## 🏗️ 数据结构可视化
 
-### 笛卡尔树 (Cartesian Tree)
+<details>
+<summary>🌳 笛卡尔树 (Cartesian Tree)</summary>
+
 ![笛卡尔树](CartesianTree.png)
 
-### 最大堆 (Max Heap)
+**特点**：满足堆性质的二叉搜索树
+</details>
+
+<details>
+<summary>🌳 最大堆 (Max Heap)</summary>
+
 ![最大堆](maxHeap.png)
+
+**特点**：父节点值总是大于子节点值的完全二叉树
+</details>
 
 
 ## 📖 算法特点
